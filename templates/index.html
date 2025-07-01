@@ -1,0 +1,34 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 style="color:red;">TESTING PAGE</h1>
+    <header>
+        <h1>Hi, I'm Hema</h1>
+        <p>Python Developer | Web Enthusiast | Tech Blogger</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I build web apps using Python and Flask.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>Blog App</li>
+            <li>ToDo List App</li>
+        </ul>
+    </section>
+
+    <footer>
+        <a href="/contact">Contact Me</a>
+    </footer>
+</body>
+</html>
